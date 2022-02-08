@@ -1,0 +1,47 @@
+<div *ngIf="isLogged()" class="custom-nav">
+    <div class=" px-3 d-flex custom-nav-2">
+        <div>
+
+            <h1 class="heading-navbar">Pharmacy Shop</h1>
+        </div>
+        <div>
+
+            <button (click)='logout()' class="btn btn-outline-light my-2 my-sm-0">Signout</button>
+        </div>
+      
+    </div>
+</div>
+<div *ngIf="isLogged()" class="container-fluid customPadding">
+<div class="row">
+    <nav class="col-md-2 d-none d-md-block  sidebar">
+        <div class="sidebar-sticky">
+          <ul class="nav flex-column">
+            <li class="nav-item">
+              <a class="nav-link" routerLink="/admin/dashboard" >
+                Dashboard
+              </a>
+            </li>
+            <hr class="sidenav-hr">
+            <li class="nav-item">
+              <a class="nav-link" routerLink="/addnew">
+             Add New Medicine
+              </a>
+            </li>
+            <hr class="sidenav-hr">
+            <li class="nav-item">
+                <a class="nav-link" routerLink="/update">
+               Update Details
+                </a>
+              </li>
+          </ul>
+        </div>
+      </nav>
+    <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-md-4">
+        <router-outlet></router-outlet>   
+    </main>
+</div>
+</div>
+<main *ngIf="!isLogged()" role="main" class="col-md-12 ml-sm-auto col-lg-12 px-md-4">
+    <router-outlet></router-outlet>
+
+</main> 

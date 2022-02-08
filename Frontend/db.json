@@ -1,0 +1,125 @@
+{
+  "posts": [
+    {
+      "Id": "1",
+      "Name": "Crocin",
+      "Type": "Tablet",
+      "Cost": "50",
+      "Expiry": "22/12/2022",
+      "id": 1
+    },
+    {
+      "Id": "2",
+      "Name": "Calpol",
+      "Type": "Tablet",
+      "Cost": "70",
+      "Expiry": "22/12/2024",
+      "id": 2
+    },
+    {
+      "Id": "3",
+      "Name": "Benedryl",
+      "Type": "Syrup",
+      "Cost": "200",
+      "Expiry": "22/12/2024",
+      "id": 3
+    },
+    {
+      "Id": "4",
+      "Name": "Disprin",
+      "Type": "Tablet",
+      "Cost": "50",
+      "Expiry": "22/12/2025",
+      "id": 4
+    },
+    {
+      "Id": "5",
+      "Name": "Saridon",
+      "Type": "Tablet",
+      "Cost": "50",
+      "Expiry": "22/12/2028",
+      "id": 5
+    },
+    {
+      "Id": "6",
+      "Name": "Volini",
+      "Type": "Spray",
+      "Cost": "100",
+      "Expiry": "22/12/2022",
+      "id": 6
+    },
+    {
+      "Id": "7",
+      "Name": "Evion",
+      "Type": "Capsules",
+      "Cost": "10",
+      "Expiry": "22/12/2022",
+      "id": 7
+    },
+    {
+      "Id": "8",
+      "Name": "Move",
+      "Type": "Ointment",
+      "Cost": "270",
+      "Expiry": "01/12/2025",
+      "id": 8
+    },
+    {
+      "Id": "9",
+      "Name": "Cobadex-Z",
+      "Type": "Capsules",
+      "Cost": "15",
+      "Expiry": "10/09/2024",
+      "id": 9
+    },
+    {
+      "Id": "10",
+      "Name": "Blurange",
+      "Type": "Syrup",
+      "Cost": "50",
+      "Expiry": "26/07/2026",
+      "id": 10
+    },
+    {
+      "Id": "1234",
+      "Name": "Crocin",
+      "Type": "tabs",
+      "Cost": "50",
+      "Expiry": "22/12/2022",
+      "id": 11
+    }
+  ],
+  "signupUsers": [
+    {
+      "fullname": "Kunal Singh ",
+      "email": "ksc@gmail.com",
+      "password": "Kunal255",
+      "mobile": 6388401816,
+      "id": 1
+    },
+    {
+      "fullname": "Aman",
+      "email": "aman@gmail.com",
+      "password": "aman255",
+      "mobile": 456465525,
+      "id": 2
+    },
+    {
+      "fullname": "Jay",
+      "email": "jay@gmail.com",
+      "password": "jay255",
+      "mobile": 1252524565925,
+      "id": 3
+    },
+    {
+      "fullname": "kunal",
+      "email": "kschauhan1025@gmail.com",
+      "password": "mxhbkasjbjo",
+      "mobile": 878374003,
+      "id": 4
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
